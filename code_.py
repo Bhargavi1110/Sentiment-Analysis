@@ -336,6 +336,5 @@ print("Accuracy: ", accuracy, "%")
 """**CHECKING WITH CUSTOM TWEET**"""
 
 custom_tweet = input("Enter the custom tweet: ")
-custom_tweet = '@bhar hi i am mri i love you <3 thank you happy ! sorry :) ,'
 ans = MultinomialNaiveBayesianClassifier(custom_tweet)
 print("The given tweet is ", ans)
